@@ -15,7 +15,7 @@ services:
 
   mininet:
     privileged: true
-    image: sangyun-han/docker-fabric
+    image: rascov/docker-fabric
     networks:
       management:
         ipv4_address: 10.66.67.3
